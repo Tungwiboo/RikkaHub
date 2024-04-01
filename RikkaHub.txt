@@ -28,13 +28,13 @@ then
 if game:IsLoaded() then
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
-local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/Tungwiboo/RikkaHub/main/RikkaHub.txt"))()
+local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/heatdeck123/UI-Lib/main/robloxscripts/flux-main"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/heatdeck123/UI-Lib/main/robloxscripts/flux-save"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/heatdeck123/UI-Lib/main/robloxscripts/flux-inter"))()
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
-    Title = "Rikka Hub ",
-    SubTitle = "- Created by Tung Wiboo",
+    Title = "RikkaHub",
+    SubTitle = "- created by Tung Wiboo",
     TabWidth = 160,
     Size = UDim2.fromOffset(515, 350),
     Acrylic = false,
@@ -61,7 +61,7 @@ local Options = Fluent.Options
 do
 --Place Id Check
 local id = game.PlaceId
-if id == 2753915549 then First_Sea = true; elseif id == 4442272183 then Second_Sea = true; elseif id == 7449423635 then Third_Sea = true; else game.Players.LocalPlayer:Kick("Check script here : https://discord.gg/aPhaukZeZW") end;
+if id == 2753915549 then First_Sea = true; elseif id == 4442272183 then Second_Sea = true; elseif id == 7449423635 then Third_Sea = true; else game.Players.LocalPlayer:Kick("Check script here : https://discord.gg/kuXFw2HkdN") end;
 -- anti
 function AntiBan()
     for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetDescendants()) do
@@ -96,10 +96,10 @@ Tabs.Info:AddSection("In Roblox Console (F9 or /console in chat)")
     --16965962548--Rikka  x  Hub
     print("made by Tung Wiboo")
     print("Rikka x Hub")
-    print("join my discord server : https://discord.com/invite/aPhaukZeZW")
-    print("bio : ")
+    print("admin có shop game : https://wiboostore.com/")
+    print("shop : https://wiboostore.com/")
     print("ty for using - have fun")
-    print("sk (on discord : @thatraanhchilamotsadboi)")
+    print("sk (on discord : @thatraanhchinhlamotsadboi)")
     print("wait ,.,")
     print("LCTSV - .,.")  
 --[[notify
